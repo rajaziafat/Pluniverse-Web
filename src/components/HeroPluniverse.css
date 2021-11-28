@@ -1,0 +1,40 @@
+.hero-img {
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  left: 50%;
+  bottom: 72px;
+  transform: translateX(-50%);
+  z-index: 10000000;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.social-icon-btn img {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.terms-condition {
+  text-align: center;
+
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+  margin-top: 1.3rem;
+  display: block;
+}
+
+.terms-condition:hover {
+  color: #095b07;
+  transition: all 0.5s ease;
+}
